@@ -1,0 +1,60 @@
+/* proSilver Button Styles
+---------------------------------------- */
+
+/* Rollover buttons
+   Based on: http://wellstyled.com/css-nopreload-rollovers.html
+----------------------------------------*/
+.buttons {
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/* Rollover state */
+.buttons div {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+/* Sub-header (navigation bar)
+--------------------------------------------- */
+a.print, a.sendemail, a.fontsize {
+	display: block;
+	height: 18px;
+	text-align: left;
+}
+
+/* Poster profile icons
+----------------------------------------*/
+ul.profile-icons {
+	padding-top: 10px;
+	list-style: none;
+}
+
+/* Rollover state */
+ul.profile-icons li {
+	float: left;
+	margin: 0 6px 3px 0;
+}
+
+/* Rolloff state */
+ul.profile-icons li a {
+	display: block;
+}
+
+/* Positioning of moderator icons */
+.postbody ul.profile-icons {
+	float: right;
+	width: auto;
+	padding: 0;
+}
+
+.postbody ul.profile-icons li {
+	margin: 0 3px;
+}
+
+/* Fix profile icon default margins */
+ul.profile-icons li.edit-icon	{ margin: 0 0 0 3px; }
+ul.profile-icons li.quote-icon	{ margin: 0 0 0 10px; }
+ul.profile-icons li.info-icon, ul.profile-icons li.report-icon	{ margin: 0 3px 0 0; }
+
